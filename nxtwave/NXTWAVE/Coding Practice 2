@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div class="bg-container">
+        <h1 class="person-name">Rahul</h1>
+        <div class="message-container">
+            <p class="message-text message-sent">Hello Rahul,how are you?</p>
+            <p class="message-text message-received">hi VaraKumar, l am good. How avout you?</p>
+            <p class="message-text message-sent">i'm fine. l published my website recently</p>
+            <p class="message-text message-received">oh great varakumar! Can you send me the URL?</p>
+            <p class="message-text message-sent">https://varakumar.ccbp.teach</p>
+            <p class="message-text message-received">Awesome VaraKumar,where did you learn?</p>
+            <p class="message-text message-sent">NxtWave CCBP 4.0 Program</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+  css:
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+}
+
+.person-name {
+    text-align: center;
+    color: #ffffff;
+    background-color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 600px;
+    padding: 18px;
+    font-size: 20px;
+}
+
+.message-container {
+    padding: 20px;
+}
+
+.message-text {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 14px;
+    font-family: "Roboto";
+}
+
+.message-received {
+    background-color: #52606d;
+    text-align: left;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.message-sent {
+    text-align: right;
+    background-color: #47a3f3;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
